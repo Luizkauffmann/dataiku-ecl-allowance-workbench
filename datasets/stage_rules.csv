@@ -1,0 +1,2 @@
+rule_version,stage2_dpd,stage3_dpd,pd_ratio_trigger,rating_downgrade_notches,watchlist_trigger,forbearance_trigger
+IFRS9_STAGE_V1,30,90,2.0,3,1,1

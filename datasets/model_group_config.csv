@@ -1,0 +1,9 @@
+product_type,pd_model,pd_version,lgd_model,lgd_version,ead_method,ead_model,ead_version
+Mortgage,DEMO_FORMULA,formula-v1,DEMO_FORMULA,formula-v1,CONTRACTUAL,,
+Auto Loan,DEMO_FORMULA,formula-v1,DEMO_FORMULA,formula-v1,CONTRACTUAL,,
+Personal Loan,DEMO_FORMULA,formula-v1,DEMO_FORMULA,formula-v1,CONTRACTUAL,,
+Credit Card,DEMO_FORMULA,formula-v1,DEMO_FORMULA,formula-v1,CCF_60,,
+Commercial Term Loan,DEMO_FORMULA,formula-v1,DEMO_FORMULA,formula-v1,CONTRACTUAL,,
+Commercial Real Estate,DEMO_FORMULA,formula-v1,DEMO_FORMULA,formula-v1,CONTRACTUAL,,
+Equipment Lease,DEMO_FORMULA,formula-v1,DEMO_FORMULA,formula-v1,CONTRACTUAL,,
+Revolving Credit Facility,DEMO_FORMULA,formula-v1,DEMO_FORMULA,formula-v1,CCF_60,,

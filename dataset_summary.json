@@ -1,0 +1,54 @@
+{
+  "portfolio_snapshot": {
+    "rows": 8656,
+    "columns": 21
+  },
+  "counterparty_snapshot": {
+    "rows": 7050,
+    "columns": 19
+  },
+  "installment_schedule": {
+    "rows": 36000,
+    "columns": 11
+  },
+  "default_recovery_history": {
+    "rows": 550,
+    "columns": 10
+  },
+  "macroeconomic_scenarios": {
+    "rows": 648,
+    "columns": 6
+  },
+  "scenario_config": {
+    "rows": 9,
+    "columns": 6
+  },
+  "stage_rules": {
+    "rows": 1,
+    "columns": 7
+  },
+  "ratings_mapping": {
+    "rows": 13,
+    "columns": 3
+  },
+  "model_group_config": {
+    "rows": 8,
+    "columns": 8
+  },
+  "cecl_run_manifest": {
+    "rows": 4,
+    "columns": 16
+  },
+  "cecl_instrument_results": {
+    "rows": 34839,
+    "columns": 14
+  },
+  "cecl_feature_contributions": {
+    "rows": 6,
+    "columns": 4
+  },
+  "cecl_attribution_results": {
+    "rows": 68,
+    "columns": 8
+  }
+}
