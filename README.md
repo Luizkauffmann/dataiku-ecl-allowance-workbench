@@ -4,6 +4,32 @@ A synthetic end-to-end **IFRS 9 / CECL** demonstration for Dataiku DSS. The proj
 
 > **Demo only.** All data in this repository is synthetic. The calculation engine, stage rules, scenario assumptions, and accounting treatments are illustrative and are not a validated IFRS 9 or CECL methodology, accounting policy, or regulatory interpretation.
 
+## V3 — Configurable ECL Engine
+
+The repository now contains an **additive V3 implementation under [`v3/`](v3/README.md)**. The original root `webapp/` remains the stable version that was already tested in Dataiku DSS.
+
+V3 adds:
+
+- PD sources that can be **fixed values, Dataiku Saved Models, lifetime PD curves, transition matrices, or formula logic**.
+- Configurable transition-matrix state fields such as **FICO band, Moody's band, internal rating, risk grade, or delinquency state**.
+- Dataset-driven **prepayment curves**.
+- A UDL-style **ECL Math Engine** that stores calculation grain, hierarchy, time step, horizon, discounting, ECL formula, and aggregation logic.
+- Execution profiles for **DSS Python, SQL/in-database intent, warehouse DSS Scenario intent, and Auto**.
+- Mock **Dataiku Govern** submission/approval workflow.
+- Mock **GitHub/Bitbucket release manifests** for approved calculation configurations.
+- Extensive documentation for Snowflake/Databricks execution and additional datasets that can be added in a bank implementation.
+
+Start here:
+
+- [V3 Overview](v3/README.md)
+- [V3 DSS Setup](v3/SETUP.md)
+- [V3 Architecture](v3/ARCHITECTURE.md)
+- [V3 Dataset Catalog](v3/DATASETS.md)
+- [Optional Data Model Extensions](v3/EXTENDING_DATA_MODEL.md)
+- [Snowflake / Databricks Execution Design](v3/WAREHOUSE_EXECUTION.md)
+
+The V3 assets are generated into `v3/webapp/` and `v3/datasets/` so they can be opened directly in GitHub and copied into Dataiku DSS.
+
 ## What the demo shows
 
 - Longitudinal portfolio snapshots for June, July, and August 2026
@@ -54,25 +80,17 @@ Governed production truth / rollback
 ├── dataset_summary.json
 ├── generate_demo_data.py
 ├── requirements.txt
-├── datasets/
-│   ├── portfolio_snapshot.csv
-│   ├── counterparty_snapshot.csv
-│   ├── installment_schedule.csv
-│   ├── default_recovery_history.csv
-│   ├── macroeconomic_scenarios.csv
-│   ├── scenario_config.csv
-│   ├── stage_rules.csv
-│   ├── ratings_mapping.csv
-│   ├── model_group_config.csv
-│   ├── cecl_run_manifest.csv
-│   ├── cecl_instrument_results.csv
-│   ├── cecl_feature_contributions.csv
-│   └── cecl_attribution_results.csv
-└── webapp/
-    ├── body.html
-    ├── style.css
-    ├── app.js
-    └── backend.py
+├── datasets/                 # original operational demo datasets
+├── webapp/                   # stable original webapp
+└── v3/
+    ├── README.md
+    ├── SETUP.md
+    ├── ARCHITECTURE.md
+    ├── DATASETS.md
+    ├── EXTENDING_DATA_MODEL.md
+    ├── WAREHOUSE_EXECUTION.md
+    ├── datasets/             # V3 method/math/governance configuration CSVs
+    └── webapp/               # V3 copy-paste DSS webapp
 ```
 
 ## Synthetic portfolio
@@ -101,7 +119,7 @@ The generated data includes these reference runs:
 
 The deterministic seed makes the demo reproducible. See `dataset_summary.json` and the run manifest after generation for the exact generated totals.
 
-## Fastest Dataiku setup
+## Fastest Dataiku setup — original version
 
 1. Import the CSV files in `datasets/` into one Dataiku project using the same dataset names.
 2. Create a **Standard Webapp**.
@@ -147,7 +165,7 @@ An accounting rerun should not require application rollback, and an application 
 
 See [DEPLOYMENT_AND_VERSIONING.md](DEPLOYMENT_AND_VERSIONING.md).
 
-## Regenerating the data
+## Regenerating the original data
 
 Locally:
 
@@ -156,8 +174,8 @@ pip install -r requirements.txt
 python generate_demo_data.py
 ```
 
-The repository also includes a manual GitHub Actions workflow, **Regenerate synthetic demo data**, which regenerates the CSV datasets, data dictionary, and summary using the deterministic seed.
+The repository also includes a manual GitHub Actions workflow, **Regenerate synthetic demo data**, which regenerates the original CSV datasets, data dictionary, and summary using the deterministic seed.
 
 ## Public-repository note
 
-No proprietary bank data or third-party source documents are included in this repository. The macroeconomic series are synthetic scenario data designed only to resemble the *structure* of forward-looking economic inputs used in credit-loss modeling.
+No proprietary bank data or third-party source documents are included in this repository. **The SAS IFRS 9 reference document is not published in this repository.** The macroeconomic series, transition matrices, PD/prepayment curves, and other configuration data are synthetic and designed only to demonstrate the structure of a configurable expected-credit-loss platform.
