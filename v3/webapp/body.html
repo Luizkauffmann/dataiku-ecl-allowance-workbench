@@ -1,0 +1,147 @@
+<div id="ecl-app">
+  <header>
+    <div>
+      <small>GOVERNED EXPECTED CREDIT LOSS</small>
+      <h1>ECL Allowance Workbench</h1>
+      <p>Mix fixed assumptions, Dataiku Saved Models, lifetime PD curves, transition matrices and prepayment curves; configure the ECL math contract; compare runs and govern the official result.</p>
+    </div>
+    <span id="status">Loading...</span>
+  </header>
+
+  <nav>
+    <button data-tab="overview" class="active">Overview</button>
+    <button data-tab="configure">Configure & Run</button>
+    <button data-tab="methodologies">Risk Methods</button>
+    <button data-tab="mathengine">ECL Math Engine</button>
+    <button data-tab="compare">Compare</button>
+    <button data-tab="versions">Versions</button>
+    <button data-tab="governance">Governance & Release</button>
+  </nav>
+  <div id="msg"></div>
+
+  <section id="overview" class="tab active">
+    <div class="toolbar"><label class="grow">Run version<select id="ov-run"></select></label><button id="refresh">Refresh</button></div>
+    <div id="official-banner" class="official-banner hidden"></div>
+    <div id="engine-banner" class="engine-banner hidden"></div>
+    <div class="kpis">
+      <article><span>Total exposure</span><strong id="k-exp">-</strong><small id="k-date"></small></article>
+      <article><span>Expected credit loss</span><strong id="k-ecl">-</strong><small id="k-status"></small></article>
+      <article><span>Coverage ratio</span><strong id="k-cov">-</strong><small>ECL / exposure</small></article>
+      <article><span>Instruments</span><strong id="k-n">-</strong><small>instrument-level result</small></article>
+    </div>
+    <div class="grid two">
+      <article class="panel"><h2>ECL by portfolio</h2><div id="p-bars"></div></article>
+      <article class="panel"><h2>Stage / framework view</h2><div id="s-bars"></div></article>
+      <article class="panel"><h2>Scenario ECL</h2><div id="scenario-bars"></div></article>
+      <article class="panel"><h2>PD methodology mix</h2><div id="method-bars"></div></article>
+    </div>
+    <article class="panel"><h2>Largest instrument contributions</h2><div class="table-scroll"><table><thead><tr><th>Instrument</th><th>Portfolio</th><th>Stage</th><th>EAD</th><th>ECL</th></tr></thead><tbody id="top"></tbody></table></div></article>
+  </section>
+
+  <section id="configure" class="tab">
+    <div class="grid three">
+      <article class="panel">
+        <h2>Run identity</h2>
+        <label>Run name<input id="run-label" placeholder="e.g. August model update"></label>
+        <label>Framework<select id="framework"><option>IFRS9</option><option>CECL</option></select></label>
+        <label>As-of date<select id="asof"></select></label>
+        <label>Parent run<select id="parent-run"></select></label>
+        <label>Bundle version<input id="bundle" value="ECL_APP_1.2.0_CONFIG"></label>
+      </article>
+      <article class="panel">
+        <h2>Scenario weights</h2>
+        <label>Baseline %<input id="wb" type="number" value="55"></label>
+        <label>Downside %<input id="wd" type="number" value="30"></label>
+        <label>Severe %<input id="ws" type="number" value="15"></label>
+        <div class="hint">Weights must total 100%.</div>
+      </article>
+      <article class="panel">
+        <h2>Accounting settings</h2>
+        <label>Stage 2 DPD<input id="s2" type="number" value="30"></label>
+        <label>Stage 3 DPD<input id="s3" type="number" value="90"></label>
+        <label>Reasonable & supportable months<input id="rs" type="number" value="24"></label>
+        <label>Reversion method<select id="reversion"><option>STRAIGHT_LINE</option><option>IMMEDIATE</option><option>CUSTOM</option></select></label>
+        <label>Reversion months<input id="rev-months" type="number" value="24"></label>
+        <label>Management overlay ($)<input id="overlay" type="number" value="0"></label>
+      </article>
+    </div>
+
+    <div class="grid three">
+      <article class="panel method-picker-panel">
+        <h2>Risk method version</h2>
+        <label>Method configuration<select id="method-config-version"></select></label>
+        <div id="method-summary"></div>
+      </article>
+      <article class="panel">
+        <h2>ECL math contract</h2>
+        <label>Math configuration<select id="math-config-version"></select></label>
+        <div class="hint">Defines loop grain, horizon, discounting and formula semantics.</div>
+      </article>
+      <article class="panel">
+        <h2>Execution engine</h2>
+        <label>Execution profile<select id="execution-profile"></select></label>
+        <div id="execution-readiness" class="hint">Checking warehouse readiness...</div>
+      </article>
+    </div>
+
+    <article class="panel"><h2>Dataiku Saved Models</h2><p>Saved Models are discovered from the DSS project. This safe demo records the chosen model/version and uses the deterministic fallback for Saved Model branches until direct scoring or a scoring recipe is wired.</p><div id="models"></div></article>
+    <button id="run" class="primary large">Run & save SANDBOX version</button><div id="run-result"></div>
+  </section>
+
+  <section id="methodologies" class="tab">
+    <div class="section-head"><div><h2>Configurable risk methods</h2><p>Each product can independently use a fixed parameter set, Visual ML / Saved Model, lifetime PD curve, transition matrix, contractual EAD, CCF, and prepayment curve.</p></div><div class="toolbar compact"><label>Configuration<select id="method-version"></select></label><button id="save-method-config" class="primary">Save as new version</button></div></div>
+    <article class="panel">
+      <h2>Product methodology mapping</h2>
+      <div class="table-scroll"><table class="wide-table"><thead><tr><th>Portfolio</th><th>PD method</th><th>PD source</th><th>PD category</th><th>Matrix</th><th>Matrix state</th><th>LGD method</th><th>LGD source</th><th>EAD method</th><th>EAD source</th><th>Prepay</th><th>Prepay curve</th><th>Prepay category</th></tr></thead><tbody id="method-config-body"></tbody></table></div>
+    </article>
+
+    <div class="grid two">
+      <article class="panel"><h2>Fixed parameter set</h2><label>Set<select id="fixed-set"></select></label><label>Scenario<select id="fixed-scenario"><option>Baseline</option><option>Downside</option><option>Severe</option></select></label><div id="fixed-view" class="table-scroll"></div></article>
+      <article class="panel"><h2>Prepayment curve</h2><label>Curve<select id="pp-curve"></select></label><label>Bucket<select id="pp-bucket"></select></label><label>Scenario<select id="pp-scenario"><option>Baseline</option><option>Downside</option><option>Severe</option></select></label><div id="pp-chart" class="chart-box"></div><div id="pp-stats" class="mini-stats"></div></article>
+      <article class="panel"><h2>Lifetime PD curve</h2><label>Curve<select id="lpd-curve"></select></label><label>Risk bucket<select id="lpd-bucket"></select></label><label>Scenario<select id="lpd-scenario"><option>Baseline</option><option>Downside</option><option>Severe</option></select></label><div id="lpd-chart" class="chart-box"></div><div id="lpd-stats" class="mini-stats"></div></article>
+      <article class="panel"><h2>Transition matrix</h2><label>Matrix<select id="tm-matrix"></select></label><label>Scenario<select id="tm-scenario"><option>Baseline</option><option>Downside</option><option>Severe</option></select></label><div id="matrix-field" class="hint"></div><div id="matrix-view" class="matrix-view"></div></article>
+    </div>
+  </section>
+
+  <section id="mathengine" class="tab">
+    <div class="section-head"><div><h2>ECL Math Engine / UDL-style contract</h2><p>Defines the calculation grain and formula independently from the PD/LGD/EAD source. A warehouse Flow can implement the same contract with SQL or visual recipes.</p></div><label>Math version<select id="math-version"></select></label></div>
+    <article class="panel"><div class="table-scroll"><table><thead><tr><th>Portfolio</th><th>Loop</th><th>Parent</th><th>Entity</th><th>Child</th><th>Time step</th><th>Horizon</th><th>PD application</th><th>Discounting</th><th>ECL formula</th></tr></thead><tbody id="math-body"></tbody></table></div></article>
+    <div class="grid two">
+      <article class="panel"><h2>Execution routing</h2><p>The webapp chooses an execution <b>profile</b>; it should not rewrite a Visual Recipe engine on the fly. For full pushdown, wire a DSS Scenario/Flow branch whose recipes use the warehouse engine.</p><div id="engine-readiness-detail"></div></article>
+      <article class="panel"><h2>Recommended warehouse pattern</h2><pre>Webapp configuration
+        ↓
+ecl_run_request
+        ↓
+DSS Scenario
+        ↓
+Visual / SQL recipes
+(Snowflake / Databricks engine)
+        ↓
+cecl_instrument_results
+        ↓
+Run manifest + approval</pre><p class="hint">The supplied version keeps the current Python calculation as a safe fallback so replacing the webapp cannot break your working demo.</p></article>
+    </div>
+  </section>
+
+  <section id="compare" class="tab">
+    <div class="toolbar"><label class="grow">Reference<select id="from"></select></label><span class="arrow">-&gt;</span><label class="grow">Comparison<select id="to"></select></label><button id="cmp">Compare</button></div>
+    <article class="panel"><h2>Allowance waterfall</h2><div id="waterfall"></div></article>
+    <div class="grid two"><article class="panel"><h2 id="drill-title">Driver detail</h2><div id="drill"></div></article><article class="panel"><h2>Interpretation</h2><p id="narrative">Choose two reporting runs.</p></article></div>
+  </section>
+
+  <section id="versions" class="tab">
+    <div class="section-head"><div><h2>Version history & official truth</h2><p>Newest appears first. Official means <b>PRODUCTION + is_official = 1</b>, not the first row.</p></div><button id="versions-refresh">Refresh</button></div>
+    <div class="filters"><label>Framework<select id="vf-framework"><option value="">All</option><option>IFRS9</option><option>CECL</option></select></label><label>As-of<select id="vf-asof"><option value="">All</option></select></label><label>Status<select id="vf-status"><option value="">All</option><option>SANDBOX</option><option>REVIEW</option><option>APPROVED</option><option>PRODUCTION</option><option>SUPERSEDED</option><option>REJECTED</option></select></label></div>
+    <article class="panel"><div class="table-scroll"><table><thead><tr><th>Run</th><th>As-of</th><th>Framework</th><th>Status</th><th>Official</th><th>ECL</th><th>Method</th><th>Math</th><th>Engine</th><th>Govern</th><th>Git</th><th>Actions</th></tr></thead><tbody id="versions-body"></tbody></table></div></article>
+  </section>
+
+  <section id="governance" class="tab">
+    <div class="section-head"><div><h2>Mock Govern + Release Control</h2><p>Simulates Govern and a GitHub/Bitbucket release manifest without changing any external repository.</p></div><span class="badge amber">MOCK MODE</span></div>
+    <div class="toolbar"><label class="grow">Run<select id="gov-run"></select></label><button id="gov-refresh">Refresh status</button></div>
+    <div class="grid two">
+      <article class="panel"><h2>Govern workflow</h2><div id="gov-artifact" class="artifact-card"></div><div class="workflow" id="gov-workflow"></div><div class="button-row"><button id="gov-submit">Submit to Govern</button><button id="gov-approve" class="primary">Mock approve</button><button id="gov-reject" class="danger">Mock reject</button></div></article>
+      <article class="panel"><h2>Release manifest</h2><label>Provider<select id="git-provider"><option>GitHub</option><option>Bitbucket</option></select></label><label>Repository<input id="git-repo" value="bank/ecl-allowance-config"></label><label>Branch<input id="git-branch" value="main"></label><div class="button-row"><button id="git-push">Mock push release manifest</button><button id="download-manifest">Download JSON</button></div><div id="git-status"></div></article>
+    </div>
+    <article class="panel"><h2>Immutable release manifest preview</h2><pre id="manifest-preview">Select a run.</pre></article>
+  </section>
+</div>

@@ -1,0 +1,5 @@
+profile_id,profile_label,engine_type,scenario_id,connection_mode,allow_python_fallback,enabled,notes
+EXEC_AUTO,Auto - prefer warehouse when wired,AUTO,,PORTFOLIO_DATASET,1,1,Safe default. Uses DSS Python now; can route to warehouse scenario later.
+EXEC_DSS_PYTHON,DSS Python - current working engine,DSS_PYTHON,,DSS,1,1,Always available and preserves current behavior.
+EXEC_SQL_IN_DB,SQL in-database - eligibility / future adapter,SQL_IN_DATABASE,,PORTFOLIO_DATASET,1,1,Records SQL intent; safe Python fallback unless SQL adapter is explicitly enabled.
+EXEC_WAREHOUSE_FLOW,Warehouse Flow / Scenario,DSS_SCENARIO,ECL_WAREHOUSE_RUN,PORTFOLIO_DATASET,1,1,"Wire this scenario to Visual/SQL recipes with Snowflake/Databricks engines. If missing, webapp falls back safely."

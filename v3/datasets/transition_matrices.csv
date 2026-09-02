@@ -1,0 +1,313 @@
+matrix_id,matrix_label,product_type,state_field,scenario,from_state,to_state,annual_probability,matrix_version,source_type
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Baseline,Prime,Prime,0.9,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Baseline,Prime,Near Prime,0.075,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Baseline,Prime,Subprime,0.018,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Baseline,Prime,Default,0.007,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Baseline,Near Prime,Prime,0.15,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Baseline,Near Prime,Near Prime,0.72,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Baseline,Near Prime,Subprime,0.095,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Baseline,Near Prime,Default,0.035,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Baseline,Subprime,Prime,0.04,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Baseline,Subprime,Near Prime,0.12,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Baseline,Subprime,Subprime,0.7,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Baseline,Subprime,Default,0.14,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Baseline,Default,Prime,0.0,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Baseline,Default,Near Prime,0.0,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Baseline,Default,Subprime,0.0,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Baseline,Default,Default,1.0,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Downside,Prime,Prime,0.89825,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Downside,Prime,Near Prime,0.075,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Downside,Prime,Subprime,0.018,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Downside,Prime,Default,0.00875,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Downside,Near Prime,Prime,0.15000000000000002,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Downside,Near Prime,Near Prime,0.71125,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Downside,Near Prime,Subprime,0.09500000000000001,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Downside,Near Prime,Default,0.04375000000000001,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Downside,Subprime,Prime,0.04,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Downside,Subprime,Near Prime,0.12,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Downside,Subprime,Subprime,0.6649999999999999,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Downside,Subprime,Default,0.17500000000000002,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Downside,Default,Prime,0.0,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Downside,Default,Near Prime,0.0,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Downside,Default,Subprime,0.0,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Downside,Default,Default,1.0,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Severe,Prime,Prime,0.8954500000000001,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Severe,Prime,Near Prime,0.07500000000000001,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Severe,Prime,Subprime,0.018000000000000002,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Severe,Prime,Default,0.011550000000000001,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Severe,Near Prime,Prime,0.15000000000000002,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Severe,Near Prime,Near Prime,0.69725,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Severe,Near Prime,Subprime,0.09500000000000001,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Severe,Near Prime,Default,0.05775000000000001,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Severe,Subprime,Prime,0.04,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Severe,Subprime,Near Prime,0.12,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Severe,Subprime,Subprime,0.609,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Severe,Subprime,Default,0.231,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Severe,Default,Prime,0.0,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Severe,Default,Near Prime,0.0,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Severe,Default,Subprime,0.0,V2,SYNTHETIC_DEMO
+TM_AUTO_FICO_V2,Auto transition by FICO band,Auto Loan,fico_band,Severe,Default,Default,1.0,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Baseline,Prime,Prime,0.93,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Baseline,Prime,Near Prime,0.055,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Baseline,Prime,Subprime,0.01,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Baseline,Prime,Default,0.005,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Baseline,Near Prime,Prime,0.16,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Baseline,Near Prime,Near Prime,0.75,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Baseline,Near Prime,Subprime,0.065,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Baseline,Near Prime,Default,0.025,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Baseline,Subprime,Prime,0.05000000000000001,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Baseline,Subprime,Near Prime,0.14000000000000004,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Baseline,Subprime,Subprime,0.7100000000000001,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Baseline,Subprime,Default,0.10000000000000002,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Baseline,Default,Prime,0.0,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Baseline,Default,Near Prime,0.0,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Baseline,Default,Subprime,0.0,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Baseline,Default,Default,1.0,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Downside,Prime,Prime,0.9287499999999999,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Downside,Prime,Near Prime,0.054999999999999986,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Downside,Prime,Subprime,0.009999999999999998,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Downside,Prime,Default,0.006249999999999999,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Downside,Near Prime,Prime,0.16,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Downside,Near Prime,Near Prime,0.74375,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Downside,Near Prime,Subprime,0.065,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Downside,Near Prime,Default,0.03125,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Downside,Subprime,Prime,0.05,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Downside,Subprime,Near Prime,0.14,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Downside,Subprime,Subprime,0.6849999999999999,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Downside,Subprime,Default,0.125,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Downside,Default,Prime,0.0,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Downside,Default,Near Prime,0.0,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Downside,Default,Subprime,0.0,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Downside,Default,Default,1.0,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Severe,Prime,Prime,0.9267499999999999,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Severe,Prime,Near Prime,0.054999999999999986,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Severe,Prime,Subprime,0.009999999999999998,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Severe,Prime,Default,0.008249999999999999,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Severe,Near Prime,Prime,0.16,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Severe,Near Prime,Near Prime,0.73375,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Severe,Near Prime,Subprime,0.065,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Severe,Near Prime,Default,0.041249999999999995,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Severe,Subprime,Prime,0.05,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Severe,Subprime,Near Prime,0.14,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Severe,Subprime,Subprime,0.645,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Severe,Subprime,Default,0.16499999999999998,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Severe,Default,Prime,0.0,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Severe,Default,Near Prime,0.0,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Severe,Default,Subprime,0.0,V2,SYNTHETIC_DEMO
+TM_MORTGAGE_FICO_V2,Mortgage transition by FICO band,Mortgage,fico_band,Severe,Default,Default,1.0,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Aaa-A,Aaa-A,0.91,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Aaa-A,Baa,0.075,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Aaa-A,Ba,0.01,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Aaa-A,B,0.002,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Aaa-A,Caa,0.001,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Aaa-A,Default,0.002,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Baa,Aaa-A,0.055,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Baa,Baa,0.84,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Baa,Ba,0.075,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Baa,B,0.02,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Baa,Caa,0.004,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Baa,Default,0.006,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Ba,Aaa-A,0.01,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Ba,Baa,0.075,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Ba,Ba,0.79,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Ba,B,0.09,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Ba,Caa,0.02,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Ba,Default,0.015,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,B,Aaa-A,0.002,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,B,Baa,0.015,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,B,Ba,0.09,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,B,B,0.75,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,B,Caa,0.09,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,B,Default,0.053,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Caa,Aaa-A,0.001,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Caa,Baa,0.004,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Caa,Ba,0.015,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Caa,B,0.09,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Caa,Caa,0.64,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Caa,Default,0.25,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Default,Aaa-A,0.0,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Default,Baa,0.0,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Default,Ba,0.0,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Default,B,0.0,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Default,Caa,0.0,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Baseline,Default,Default,1.0,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Aaa-A,Aaa-A,0.9095000000000001,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Aaa-A,Baa,0.075,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Aaa-A,Ba,0.01,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Aaa-A,B,0.002,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Aaa-A,Caa,0.001,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Aaa-A,Default,0.0025,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Baa,Aaa-A,0.055,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Baa,Baa,0.8385,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Baa,Ba,0.075,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Baa,B,0.02,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Baa,Caa,0.004,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Baa,Default,0.0075,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Ba,Aaa-A,0.01,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Ba,Baa,0.075,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Ba,Ba,0.78625,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Ba,B,0.09,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Ba,Caa,0.02,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Ba,Default,0.01875,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,B,Aaa-A,0.002,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,B,Baa,0.015,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,B,Ba,0.09,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,B,B,0.73675,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,B,Caa,0.09,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,B,Default,0.06625,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Caa,Aaa-A,0.001,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Caa,Baa,0.004,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Caa,Ba,0.015,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Caa,B,0.09,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Caa,Caa,0.5775,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Caa,Default,0.3125,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Default,Aaa-A,0.0,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Default,Baa,0.0,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Default,Ba,0.0,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Default,B,0.0,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Default,Caa,0.0,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Downside,Default,Default,1.0,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Aaa-A,Aaa-A,0.9087000000000001,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Aaa-A,Baa,0.075,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Aaa-A,Ba,0.01,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Aaa-A,B,0.002,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Aaa-A,Caa,0.001,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Aaa-A,Default,0.0033,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Baa,Aaa-A,0.055,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Baa,Baa,0.8361,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Baa,Ba,0.075,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Baa,B,0.02,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Baa,Caa,0.004,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Baa,Default,0.009899999999999999,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Ba,Aaa-A,0.01,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Ba,Baa,0.075,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Ba,Ba,0.78025,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Ba,B,0.09,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Ba,Caa,0.02,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Ba,Default,0.024749999999999998,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,B,Aaa-A,0.002,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,B,Baa,0.015,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,B,Ba,0.09,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,B,B,0.71555,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,B,Caa,0.09,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,B,Default,0.08745,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Caa,Aaa-A,0.001,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Caa,Baa,0.004,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Caa,Ba,0.015,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Caa,B,0.09,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Caa,Caa,0.47750000000000004,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Caa,Default,0.4125,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Default,Aaa-A,0.0,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Default,Baa,0.0,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Default,Ba,0.0,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Default,B,0.0,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Default,Caa,0.0,V2,SYNTHETIC_DEMO
+TM_COMM_MOODYS_V2,Commercial term transition by Moody's band,Commercial Term Loan,moodys_band,Severe,Default,Default,1.0,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Aaa-A,Aaa-A,0.92,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Aaa-A,Baa,0.068,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Aaa-A,Ba,0.007,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Aaa-A,B,0.001,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Aaa-A,Caa,0.001,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Aaa-A,Default,0.003,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Baa,Aaa-A,0.05,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Baa,Baa,0.85,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Baa,Ba,0.07,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Baa,B,0.018,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Baa,Caa,0.004,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Baa,Default,0.008,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Ba,Aaa-A,0.01,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Ba,Baa,0.07,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Ba,Ba,0.8,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Ba,B,0.08,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Ba,Caa,0.02,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Ba,Default,0.02,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,B,Aaa-A,0.002,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,B,Baa,0.012,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,B,Ba,0.08,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,B,B,0.76,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,B,Caa,0.085,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,B,Default,0.061,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Caa,Aaa-A,0.001,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Caa,Baa,0.003,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Caa,Ba,0.012,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Caa,B,0.08,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Caa,Caa,0.65,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Caa,Default,0.254,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Default,Aaa-A,0.0,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Default,Baa,0.0,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Default,Ba,0.0,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Default,B,0.0,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Default,Caa,0.0,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Baseline,Default,Default,1.0,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Aaa-A,Aaa-A,0.91925,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Aaa-A,Baa,0.068,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Aaa-A,Ba,0.007,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Aaa-A,B,0.001,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Aaa-A,Caa,0.001,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Aaa-A,Default,0.00375,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Baa,Aaa-A,0.05,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Baa,Baa,0.848,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Baa,Ba,0.07,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Baa,B,0.018,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Baa,Caa,0.004,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Baa,Default,0.01,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Ba,Aaa-A,0.01,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Ba,Baa,0.07,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Ba,Ba,0.795,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Ba,B,0.08,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Ba,Caa,0.02,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Ba,Default,0.025,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,B,Aaa-A,0.002,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,B,Baa,0.012,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,B,Ba,0.08,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,B,B,0.74475,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,B,Caa,0.085,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,B,Default,0.07625,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Caa,Aaa-A,0.001,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Caa,Baa,0.003,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Caa,Ba,0.012,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Caa,B,0.08,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Caa,Caa,0.5865,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Caa,Default,0.3175,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Default,Aaa-A,0.0,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Default,Baa,0.0,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Default,Ba,0.0,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Default,B,0.0,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Default,Caa,0.0,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Downside,Default,Default,1.0,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Aaa-A,Aaa-A,0.91805,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Aaa-A,Baa,0.068,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Aaa-A,Ba,0.007,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Aaa-A,B,0.001,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Aaa-A,Caa,0.001,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Aaa-A,Default,0.0049499999999999995,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Baa,Aaa-A,0.04999999999999999,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Baa,Baa,0.8447999999999998,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Baa,Ba,0.06999999999999999,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Baa,B,0.017999999999999995,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Baa,Caa,0.003999999999999999,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Baa,Default,0.013199999999999996,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Ba,Aaa-A,0.01,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Ba,Baa,0.07,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Ba,Ba,0.787,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Ba,B,0.08,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Ba,Caa,0.02,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Ba,Default,0.033,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,B,Aaa-A,0.002,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,B,Baa,0.012,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,B,Ba,0.08,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,B,B,0.72035,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,B,Caa,0.085,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,B,Default,0.10064999999999999,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Caa,Aaa-A,0.001,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Caa,Baa,0.003,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Caa,Ba,0.012,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Caa,B,0.08,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Caa,Caa,0.48490000000000005,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Caa,Default,0.4191,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Default,Aaa-A,0.0,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Default,Baa,0.0,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Default,Ba,0.0,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Default,B,0.0,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Default,Caa,0.0,V2,SYNTHETIC_DEMO
+TM_EQUIPMENT_MOODYS_V2,Equipment lease transition by Moody's band,Equipment Lease,moodys_band,Severe,Default,Default,1.0,V2,SYNTHETIC_DEMO

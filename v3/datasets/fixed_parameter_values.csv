@@ -1,0 +1,40 @@
+parameter_set_id,parameter_set_label,product_type,parameter_type,scenario,category_field,category_value,value,parameter_version,source_type
+FIXED_PD_PERSONAL_V2,Personal loan PD by FICO band,Personal Loan,PD_12M,Baseline,fico_band,Prime,0.012,V2,SYNTHETIC_DEMO
+FIXED_PD_PERSONAL_V2,Personal loan PD by FICO band,Personal Loan,PD_12M,Baseline,fico_band,Near Prime,0.035,V2,SYNTHETIC_DEMO
+FIXED_PD_PERSONAL_V2,Personal loan PD by FICO band,Personal Loan,PD_12M,Baseline,fico_band,Subprime,0.085,V2,SYNTHETIC_DEMO
+FIXED_PD_PERSONAL_V2,Personal loan PD by FICO band,Personal Loan,PD_12M,Downside,fico_band,Prime,0.016200000000000003,V2,SYNTHETIC_DEMO
+FIXED_PD_PERSONAL_V2,Personal loan PD by FICO band,Personal Loan,PD_12M,Downside,fico_band,Near Prime,0.04725000000000001,V2,SYNTHETIC_DEMO
+FIXED_PD_PERSONAL_V2,Personal loan PD by FICO band,Personal Loan,PD_12M,Downside,fico_band,Subprime,0.11475000000000002,V2,SYNTHETIC_DEMO
+FIXED_PD_PERSONAL_V2,Personal loan PD by FICO band,Personal Loan,PD_12M,Severe,fico_band,Prime,0.0228,V2,SYNTHETIC_DEMO
+FIXED_PD_PERSONAL_V2,Personal loan PD by FICO band,Personal Loan,PD_12M,Severe,fico_band,Near Prime,0.0665,V2,SYNTHETIC_DEMO
+FIXED_PD_PERSONAL_V2,Personal loan PD by FICO band,Personal Loan,PD_12M,Severe,fico_band,Subprime,0.1615,V2,SYNTHETIC_DEMO
+FIXED_PD_EQUIPMENT_V2,Equipment lease PD by Moody's band,Equipment Lease,PD_12M,Baseline,moodys_band,Aaa-A,0.006,V2,SYNTHETIC_DEMO
+FIXED_PD_EQUIPMENT_V2,Equipment lease PD by Moody's band,Equipment Lease,PD_12M,Baseline,moodys_band,Baa,0.014,V2,SYNTHETIC_DEMO
+FIXED_PD_EQUIPMENT_V2,Equipment lease PD by Moody's band,Equipment Lease,PD_12M,Baseline,moodys_band,Ba,0.04,V2,SYNTHETIC_DEMO
+FIXED_PD_EQUIPMENT_V2,Equipment lease PD by Moody's band,Equipment Lease,PD_12M,Baseline,moodys_band,B,0.085,V2,SYNTHETIC_DEMO
+FIXED_PD_EQUIPMENT_V2,Equipment lease PD by Moody's band,Equipment Lease,PD_12M,Baseline,moodys_band,Caa,0.18,V2,SYNTHETIC_DEMO
+FIXED_PD_EQUIPMENT_V2,Equipment lease PD by Moody's band,Equipment Lease,PD_12M,Downside,moodys_band,Aaa-A,0.008100000000000001,V2,SYNTHETIC_DEMO
+FIXED_PD_EQUIPMENT_V2,Equipment lease PD by Moody's band,Equipment Lease,PD_12M,Downside,moodys_band,Baa,0.0189,V2,SYNTHETIC_DEMO
+FIXED_PD_EQUIPMENT_V2,Equipment lease PD by Moody's band,Equipment Lease,PD_12M,Downside,moodys_band,Ba,0.054000000000000006,V2,SYNTHETIC_DEMO
+FIXED_PD_EQUIPMENT_V2,Equipment lease PD by Moody's band,Equipment Lease,PD_12M,Downside,moodys_band,B,0.11475000000000002,V2,SYNTHETIC_DEMO
+FIXED_PD_EQUIPMENT_V2,Equipment lease PD by Moody's band,Equipment Lease,PD_12M,Downside,moodys_band,Caa,0.243,V2,SYNTHETIC_DEMO
+FIXED_PD_EQUIPMENT_V2,Equipment lease PD by Moody's band,Equipment Lease,PD_12M,Severe,moodys_band,Aaa-A,0.0108,V2,SYNTHETIC_DEMO
+FIXED_PD_EQUIPMENT_V2,Equipment lease PD by Moody's band,Equipment Lease,PD_12M,Severe,moodys_band,Baa,0.0252,V2,SYNTHETIC_DEMO
+FIXED_PD_EQUIPMENT_V2,Equipment lease PD by Moody's band,Equipment Lease,PD_12M,Severe,moodys_band,Ba,0.07200000000000001,V2,SYNTHETIC_DEMO
+FIXED_PD_EQUIPMENT_V2,Equipment lease PD by Moody's band,Equipment Lease,PD_12M,Severe,moodys_band,B,0.15300000000000002,V2,SYNTHETIC_DEMO
+FIXED_PD_EQUIPMENT_V2,Equipment lease PD by Moody's band,Equipment Lease,PD_12M,Severe,moodys_band,Caa,0.324,V2,SYNTHETIC_DEMO
+FIXED_LGD_SECURED_V2,Secured LGD,*,LGD,Baseline,ALL,ALL,0.32,V2,SYNTHETIC_DEMO
+FIXED_LGD_SECURED_V2,Secured LGD,*,LGD,Downside,ALL,ALL,0.3456,V2,SYNTHETIC_DEMO
+FIXED_LGD_SECURED_V2,Secured LGD,*,LGD,Severe,ALL,ALL,0.3776,V2,SYNTHETIC_DEMO
+FIXED_LGD_UNSECURED_V2,Unsecured LGD,*,LGD,Baseline,ALL,ALL,0.68,V2,SYNTHETIC_DEMO
+FIXED_LGD_UNSECURED_V2,Unsecured LGD,*,LGD,Downside,ALL,ALL,0.7140000000000001,V2,SYNTHETIC_DEMO
+FIXED_LGD_UNSECURED_V2,Unsecured LGD,*,LGD,Severe,ALL,ALL,0.7480000000000001,V2,SYNTHETIC_DEMO
+FIXED_LGD_CRE_V2,CRE LGD,Commercial Real Estate,LGD,Baseline,ALL,ALL,0.38,V2,SYNTHETIC_DEMO
+FIXED_LGD_CRE_V2,CRE LGD,Commercial Real Estate,LGD,Downside,ALL,ALL,0.42560000000000003,V2,SYNTHETIC_DEMO
+FIXED_LGD_CRE_V2,CRE LGD,Commercial Real Estate,LGD,Severe,ALL,ALL,0.4712,V2,SYNTHETIC_DEMO
+FIXED_CCF_CARD_V2,Credit card CCF,Credit Card,CCF,Baseline,ALL,ALL,0.55,V2,SYNTHETIC_DEMO
+FIXED_CCF_CARD_V2,Credit card CCF,Credit Card,CCF,Downside,ALL,ALL,0.5940000000000001,V2,SYNTHETIC_DEMO
+FIXED_CCF_CARD_V2,Credit card CCF,Credit Card,CCF,Severe,ALL,ALL,0.6325,V2,SYNTHETIC_DEMO
+FIXED_CCF_REVOLVING_V2,Commercial revolving CCF,Revolving Credit Facility,CCF,Baseline,ALL,ALL,0.65,V2,SYNTHETIC_DEMO
+FIXED_CCF_REVOLVING_V2,Commercial revolving CCF,Revolving Credit Facility,CCF,Downside,ALL,ALL,0.7020000000000001,V2,SYNTHETIC_DEMO
+FIXED_CCF_REVOLVING_V2,Commercial revolving CCF,Revolving Credit Facility,CCF,Severe,ALL,ALL,0.754,V2,SYNTHETIC_DEMO
