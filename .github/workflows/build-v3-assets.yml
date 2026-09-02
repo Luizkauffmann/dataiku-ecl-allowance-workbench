@@ -1,0 +1,61 @@
+name: Build V3 configurable engine assets
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'v3/_bootstrap_parts/**'
+      - '.github/workflows/build-v3-assets.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install generator dependencies
+        run: python -m pip install --upgrade pip numpy pandas
+
+      - name: Assemble V3 bootstrap
+        run: |
+          cat v3/_bootstrap_parts/part_01.txt \
+              v3/_bootstrap_parts/part_02.txt \
+              v3/_bootstrap_parts/part_03.txt \
+              v3/_bootstrap_parts/part_04.txt \
+              > v3/bootstrap_assets.py
+
+      - name: Materialize copy-paste webapp and CSV datasets
+        run: python v3/bootstrap_assets.py
+
+      - name: Validate generated files
+        run: |
+          python -m py_compile v3/webapp/backend.py
+          test -s v3/webapp/body.html
+          test -s v3/webapp/style.css
+          test -s v3/webapp/app.js
+          test -s v3/datasets/ecl_method_config.csv
+          test -s v3/datasets/ecl_math_config.csv
+          test -s v3/datasets/transition_matrices.csv
+          test -s v3/datasets/lifetime_pd_curves.csv
+          test -s v3/datasets/prepayment_curves.csv
+
+      - name: Commit generated V3 assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add v3/bootstrap_assets.py v3/generate_v3_csvs.py v3/webapp v3/datasets
+          if ! git diff --cached --quiet; then
+            git commit -m "Build V3 configurable ECL engine assets"
+            git push
+          else
+            echo "No generated asset changes to commit."
+          fi
